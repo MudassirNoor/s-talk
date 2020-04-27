@@ -1,4 +1,4 @@
-S-talk
+# S-talk
 
 A simple chat application for communication between two linux terminals on different machines.
 
@@ -6,8 +6,9 @@ Concepts of UPD Socket Programming and multi-threading using pthreads are applie
 
 Note: Use port numbers greater than 1024
 
-To execute:
+## Execution:
+In terminal carry out the following commands:
 
-make s-talk
+`make s-talk`
   
-./s-talk [localPortNumber] [remoteMachineName] [remotePortNumber]
+`./s-talk [localPortNumber] [remoteMachineName] [remotePortNumber]`
